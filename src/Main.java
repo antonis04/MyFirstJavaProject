@@ -1,28 +1,28 @@
+import java.util.Scanner;
+
+
 public class Main {
     public static void main(String[] args) {
-        // This is a comment in my first java progam
 
-        /*
-            This
-            is a
-            multi-line
-            comment
-         */
-       int age = 21;
+        // SHOPPING CART PROGRAM
 
-       double price = 19.99;
-       double gpa = 3.5;
-       double temperature = -12.5;
+        Scanner scanner = new Scanner(System.in);
+
+        String item;
+        double price;
+        int quantity;
+        char currency = '$';
+        double total;
+
+        System.out.print("What item would you like to buy?: ");
+        item = scanner.nextLine();
+
+        System.out.print("What is the price for each?: ");
+        price = scanner.nextDouble();
+
+        System.out.println(price);
 
 
-        char grade = 'A';
-        char symbol = '!';
-
-
-        boolean isStudent = true;
-        boolean forSale = false;
-
-        System.out.println(forSale);
-
+        scanner.close();
     }
 }
