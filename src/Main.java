@@ -7,9 +7,8 @@ public class Main {
 
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Plant plant = new Plant();
 
-
-        System.out.println(dog.isAlive);
-        System.out.println(cat.isAlive);
+        plant.photosynthesize();
     }
 }
