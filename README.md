@@ -1,6 +1,6 @@
-# MyFirstJavaProject
+# Java Alarm Clock Project
 
-Welcome to **MyFirstJavaProject**! This repository is designed for learners starting out with Java.
+Welcome to **JavaAlarmClockProjectt**! This repository is designed for learners starting out with Java.
 
 ## Description
 
